@@ -110,7 +110,7 @@ export default function Home() {
                 </div>
                 <p className="text-[var(--muted)] leading-relaxed mb-4">
                   A multiplayer territory-control word game. Spell on a grid to claim tiles, fortify
-                  bases, and outlast up to four opponents in real-time Blitz or turn-based campaigns.
+                  bases, and outlast up to five opponents in real-time Blitz or turn-based campaigns.
                   Form private factions to play with family and friends, run your own tournaments,
                   or take on the global ladder.
                 </p>
@@ -125,7 +125,7 @@ export default function Home() {
                   </span>
                   <span className="inline-flex items-center gap-1.5">
                     <span className="w-1.5 h-1.5 rounded-full bg-[var(--gold-bright)]" />
-                    2–5 players
+                    2–6 players
                   </span>
                   <span className="inline-flex items-center gap-1.5">
                     <span className="w-1.5 h-1.5 rounded-full bg-[var(--gold-bright)]" />

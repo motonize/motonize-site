@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Lex Conquer",
   description:
-    "Lex Conquer is a multiplayer territory-control word game from Motonize. Spell on a grid to claim tiles, fortify bases, and outlast up to four opponents in real-time Blitz or turn-based campaigns.",
+    "Lex Conquer is a multiplayer territory-control word game from Motonize. Spell on a grid to claim tiles, fortify bases, and outlast up to five opponents in real-time Blitz or turn-based campaigns.",
   openGraph: {
     title: "Lex Conquer · Motonize",
     description:
@@ -58,7 +58,7 @@ const screenshots = [
 ];
 
 const features = [
-  { label: "Players per match", value: "2–5" },
+  { label: "Players per match", value: "2–6" },
   { label: "Grid sizes", value: "5×5 to 10×10" },
   { label: "Modes", value: "Blitz · Campaign · Capture-the-Base" },
   { label: "Platforms", value: "iOS · Android" },
@@ -112,7 +112,7 @@ export default function LexConquerPage() {
               </p>
               <p className="mt-5 text-base text-[var(--muted)] leading-relaxed max-w-2xl">
                 Spell words on a grid to claim tiles. Fortify your bases. Crush rivals in
-                real-time Blitz, or out-think them in turn-based Campaigns. Two to five players,
+                real-time Blitz, or out-think them in turn-based Campaigns. Two to six players,
                 multiple game modes, and ten ranks of progression. Form private factions with
                 family and friends, chat between matches, and run your own tournaments — for
                 players who want every move to matter.
