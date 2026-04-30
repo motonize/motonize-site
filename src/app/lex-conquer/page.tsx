@@ -45,6 +45,16 @@ const screenshots = [
     caption: "Make it yours",
     description: "Unlock theme packs that reskin every rank — from medieval crests to modern warriors.",
   },
+  {
+    src: "/screenshots/07-groups.jpeg",
+    caption: "Build your faction",
+    description: "Create a private group with family and friends. Chat between matches and compete inside your own circle.",
+  },
+  {
+    src: "/screenshots/08-tournaments.PNG",
+    caption: "Run your own tournaments",
+    description: "Bracket-style tournaments inside your faction. Set the mode, grid size, and entry fee — winner takes the pot.",
+  },
 ];
 
 const features = [
@@ -103,8 +113,9 @@ export default function LexConquerPage() {
               <p className="mt-5 text-base text-[var(--muted)] leading-relaxed max-w-2xl">
                 Spell words on a grid to claim tiles. Fortify your bases. Crush rivals in
                 real-time Blitz, or out-think them in turn-based Campaigns. Two to five players,
-                multiple game modes, and ten ranks of progression — for players who want every
-                move to matter.
+                multiple game modes, and ten ranks of progression. Form private factions with
+                family and friends, chat between matches, and run your own tournaments — for
+                players who want every move to matter.
               </p>
             </div>
           </div>

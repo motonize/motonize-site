@@ -111,7 +111,8 @@ export default function Home() {
                 <p className="text-[var(--muted)] leading-relaxed mb-4">
                   A multiplayer territory-control word game. Spell on a grid to claim tiles, fortify
                   bases, and outlast up to four opponents in real-time Blitz or turn-based campaigns.
-                  Strategic depth meets word craft — for players who want every move to matter.
+                  Form private factions to play with family and friends, run your own tournaments,
+                  or take on the global ladder.
                 </p>
                 <div className="flex flex-wrap items-center gap-4 text-sm text-[var(--muted)]">
                   <span className="inline-flex items-center gap-1.5">
