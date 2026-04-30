@@ -84,7 +84,10 @@ export default function Home() {
           </h2>
           <div className="divider-gold mb-10 w-24" />
 
-          <div className="card card-hover p-8 sm:p-10">
+          <Link
+            href="/lex-conquer"
+            className="block card card-hover p-8 sm:p-10 group"
+          >
             <div className="flex flex-col sm:flex-row items-start gap-6 sm:gap-10">
               <div className="flex-shrink-0">
                 <Image
@@ -92,13 +95,13 @@ export default function Home() {
                   alt="Lex Conquer app icon"
                   width={128}
                   height={128}
-                  className="w-24 h-24 sm:w-32 sm:h-32 rounded-2xl shadow-xl"
+                  className="w-24 h-24 sm:w-32 sm:h-32 rounded-2xl shadow-xl transition-transform duration-300 group-hover:scale-105"
                   priority
                 />
               </div>
               <div className="flex-1">
                 <div className="flex items-center gap-3 mb-3">
-                  <h3 className="font-display text-2xl sm:text-3xl font-semibold text-[var(--foreground)]">
+                  <h3 className="font-display text-2xl sm:text-3xl font-semibold text-[var(--foreground)] group-hover:text-[var(--gold-bright)] transition-colors">
                     Lex Conquer
                   </h3>
                   <span className="text-xs uppercase tracking-widest text-[var(--gold-bright)] border border-[var(--gold-bright)]/40 rounded-full px-3 py-1">
@@ -128,9 +131,17 @@ export default function Home() {
                     Real-time + turn-based
                   </span>
                 </div>
+                <div className="mt-5 inline-flex items-center gap-1.5 text-sm text-[var(--gold-bright)] font-medium">
+                  <span className="opacity-80 group-hover:opacity-100 transition-opacity">
+                    See screenshots and details
+                  </span>
+                  <span className="transition-transform duration-200 group-hover:translate-x-1">
+                    →
+                  </span>
+                </div>
               </div>
             </div>
-          </div>
+          </Link>
 
           <p className="mt-8 text-sm text-[var(--muted)]/70 italic">
             More titles in development. Studio updates announced first to subscribers at{" "}
