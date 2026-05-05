@@ -141,8 +141,7 @@ export default function PrivacyPage() {
         </p>
         <p>
           Motonize LLC<br />
-          1608 42nd St<br />
-          Brooklyn, NY 11204<br />
+          New York, NY<br />
           United States<br />
           <a href="mailto:info@motonize.com">info@motonize.com</a>
         </p>

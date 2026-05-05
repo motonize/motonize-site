@@ -202,9 +202,7 @@ export default function Home() {
               <address className="not-italic text-[var(--foreground)] leading-relaxed">
                 Motonize LLC
                 <br />
-                1608 42nd St
-                <br />
-                Brooklyn, NY 11204
+                New York, NY
                 <br />
                 United States
               </address>
