@@ -84,8 +84,8 @@ export default function Home() {
           </h2>
           <div className="divider-gold mb-10 w-24" />
 
-          <Link
-            href="/lex-conquer"
+          <a
+            href="https://lexconquer.com"
             className="block card card-hover p-8 sm:p-10 group"
           >
             <div className="flex flex-col sm:flex-row items-start gap-6 sm:gap-10">
@@ -100,9 +100,23 @@ export default function Home() {
                 />
               </div>
               <div className="flex-1">
-                <div className="flex items-center gap-3 mb-3">
-                  <h3 className="font-display text-2xl sm:text-3xl font-semibold text-[var(--foreground)] group-hover:text-[var(--gold-bright)] transition-colors">
+                <div className="flex items-center gap-3 mb-3 flex-wrap">
+                  <h3 className="font-display text-2xl sm:text-3xl font-semibold text-[var(--foreground)] group-hover:text-[var(--gold-bright)] transition-colors inline-flex items-center gap-2">
                     Lex Conquer
+                    <svg
+                      width="18"
+                      height="18"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="opacity-50 group-hover:opacity-100 transition-opacity"
+                      aria-hidden="true"
+                    >
+                      <path d="M7 17L17 7M17 7H8M17 7V16" />
+                    </svg>
                   </h3>
                   <span className="text-xs uppercase tracking-widest text-[var(--gold-bright)] border border-[var(--gold-bright)]/40 rounded-full px-3 py-1">
                     Coming 2026
@@ -142,7 +156,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-          </Link>
+          </a>
 
           <p className="mt-8 text-sm text-[var(--muted)]/70 italic">
             More titles in development. Studio updates announced first to subscribers at{" "}
