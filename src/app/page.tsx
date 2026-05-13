@@ -42,7 +42,7 @@ export default function Home() {
             <span className="italic">(n.)</span> — <em className="text-[var(--gold-bright)] not-italic">moto</em>{" "}
             + <em className="text-[var(--gold-bright)] not-italic">organize</em>. A mobile games studio
             crafting strategic experiences with intent and rigor. Our first title,{" "}
-            <span className="text-[var(--foreground)] font-medium">Lex Conquer</span>, launches in 2026.
+            <span className="text-[var(--foreground)] font-medium">Lex Conquer</span>, is live now on the App Store.
           </p>
         </div>
       </section>
@@ -119,7 +119,7 @@ export default function Home() {
                     </svg>
                   </h3>
                   <span className="text-xs uppercase tracking-widest text-[var(--gold-bright)] border border-[var(--gold-bright)]/40 rounded-full px-3 py-1">
-                    Coming 2026
+                    Available now
                   </span>
                 </div>
                 <p className="text-[var(--muted)] leading-relaxed mb-4">
